@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FA-AGENCY | Live Stream & Digital Services</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #00d2ff;
+            --secondary: #3a7bd5;
+            --bg-dark: #0f172a;
+            --card-bg: #1e293b;
+            --text-light: #f8fafc;
+            --accent-gold: #f59e0b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            padding-bottom: 40px;
+        }
+
+        /* Header Bar */
+        header {
+            background: linear-gradient(135deg, var(--secondary), var(--primary));
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        /* Top Action Button */
+        .btn-pro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(90deg, #f59e0b, #d97706);
+            color: #fff;
+            padding: 14px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+            margin-bottom: 25px;
+            transition: 0.3s;
+        }
+
+        .btn-pro:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Card Section */
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .card-title {
+            font-size: 18px;
+            color: var(--primary);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* 7-Day Streak Section */
+        .streak-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+        }
+
+        .streak-day {
+            background: #334155;
+            padding: 10px 6px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 12px;
+            flex: 1;
+            margin: 0 2px;
+        }
+
+        .streak-day.active {
+            background: var(--primary);
+            color: #000;
+            font-weight: bold;
+        }
+
+        /* Action Grid Links */
+        .support-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        .support-btn {
+            background: #334155;
+            color: #fff;
+            padding: 12px;
+            border-radius: 10px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+            transition: 0.2s;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            text-align: left;
+        }
+
+        .support-btn:hover {
+            background: var(--secondary);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #94a3b8;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FA-AGENCY</h1>
+        <p>Live Stream Apps & Official Digital Merchant</p>
+    </header>
+
+    <div class="container">
+
+        <!-- 👑 Pro Apps Collection Button -->
+        <a href="https://t.me/FA_Agency_Support_bot" target="_blank" class="btn-pro">
+            <i class="fa-solid fa-crown"></i> 👑 Premium & Pro Apps Collection
+        </a>
+
+        <!-- 🔥 Daily Login & Order Streak Card -->
+        <div class="card">
+            <div class="card-title">
+                <i class="fa-solid fa-fire"></i> 7-Day Order Streak (Free Truecaller Premium)
+            </div>
+            <p style="font-size: 13px; color: #cbd5e1;">প্রতিদিন অন্তত ১টি সফল অর্ডার করুন এবং ৭ম দিনে ফ্রিতে বুঝে নিন Truecaller Premium App!</p>
+            
+            <div class="streak-container">
+                <div class="streak-day active">Day 1</div>
+                <div class="streak-day">Day 2</div>
+                <div class="streak-day">Day 3</div>
+                <div class="streak-day">Day 4</div>
+                <div class="streak-day">Day 5</div>
+                <div class="streak-day">Day 6</div>
+                <div class="streak-day">Day 7 🎁</div>
+            </div>
+        </div>
+
+        <!-- 🤖 Support Category Section -->
+        <div class="card">
+            <div class="card-title">
+                <i class="fa-solid fa-headset"></i> কাস্টমার সাপোর্ট ও হেল্পডেস্ক
+            </div>
+            <div class="support-grid">
+                <a href="https://t.me/FA_Agency_Support_bot?start=payment" class="support-btn">
+                    <i class="fa-solid fa-credit-card" style="color: #4ade80;"></i> 💳 ১. পেমেন্ট সমস্যা
+                </a>
+                <a href="https://t.me/FA_Agency_Support_bot?start=general" class="support-btn">
+                    <i class="fa-solid fa-circle-question" style="color: #60a5fa;"></i> ❓ ২. সাধারণ জিজ্ঞাসা
+                </a>
+                <a href="https://t.me/FA_Agency_Support_bot?start=referral" class="support-btn">
+                    <i class="fa-solid fa-gift" style="color: #f43f5e;"></i> 🎁 ৩. রেফারেল ও রিভিউ টাস্ক
+                </a>
+            </div>
+        </div>
+
+        <!-- 💰 Reseller & Referral Policy Summary -->
+        <div class="card">
+            <div class="card-title">
+                <i class="fa-solid fa-users"></i> রেফারেল ও প্রমোশন বোনাস
+            </div>
+            <ul style="font-size: 13px; padding-left: 20px; line-height: 1.8; color: #cbd5e1;">
+                <li><strong>সাধারণ ইউজার:</strong> রেফারেল কাস্টমার ১,০০০ টাকার অর্ডার সম্পন্ন করলে পাবেন ৳১০০ ওয়ালেট বোনাস। (*T&C Apply)</li>
+                <li><strong>এপিআই রিসেলার:</strong> নতুন এপিআই ইউজার ৫,০০০ টাকার ব্যবহার সম্পূর্ণ করলে পাবেন ৳১,০০০ স্পেশাল বোনাস।</li>
+                <li><strong>১০-কমেন্ট টাস্ক:</strong> আমাদের ফেসবুক পেজের ১০টি পোস্টে রিভিউ দিয়ে টেলিগ্রাম বটে লিংক সাবমিট করলেই পাবেন ১০০টি ফ্রি ফলোয়ার!</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 FA-AGENCY. All Rights Reserved.</p>
+        <p style="margin-top: 5px;">Powered by FA-AGENCY Engine</p>
+    </footer>
+
+</body>
+</html>
